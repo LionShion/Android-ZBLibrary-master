@@ -39,8 +39,6 @@ public class MainTabActivity extends BaseBottomTabActivity implements OnBottomDr
 	//启动方法<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 	/**启动这个Activity的Intent
-	 * @param context
-	 * @return
 	 */
 	public static Intent createIntent(Context context) {
 		return new Intent(context, MainTabActivity.class);
